@@ -17,6 +17,7 @@ require('lazy').setup({
     require 'plugins.rosepine',
     require 'plugins.treesitter',
     require 'plugins.telescope',
-    require 'plugins.comment'
+    require 'plugins.comment',
+    require 'plugins.harpoon'
 })
 

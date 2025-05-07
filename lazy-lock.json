@@ -1,5 +1,6 @@
 {
   "Comment.nvim": { "branch": "master", "commit": "e30b7f2008e52442154b66f7c519bfd2f1e32acb" },
+  "harpoon": { "branch": "harpoon2", "commit": "ed1f853847ffd04b2b61c314865665e1dadf22c7" },
   "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
   "mini.files": { "branch": "main", "commit": "01001e0cfc1e79f581d055ae3f70fbac96a2f378" },
   "nvim-treesitter": { "branch": "master", "commit": "28d480e0624b259095e56f353ec911f9f2a0f404" },
