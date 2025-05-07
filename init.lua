@@ -1,7 +1,6 @@
 require 'keymaps'
 require 'options'
 
-
 -- [[ Install `lazy.nvim` plugin manager ]]
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
@@ -18,5 +17,6 @@ require('lazy').setup({
     require 'plugins.rosepine',
     require 'plugins.treesitter',
     require 'plugins.telescope',
+    require 'plugins.comment'
 })
 
