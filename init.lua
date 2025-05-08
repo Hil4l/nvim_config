@@ -18,6 +18,7 @@ require('lazy').setup({
     require 'plugins.treesitter',
     require 'plugins.telescope',
     require 'plugins.comment',
-    require 'plugins.harpoon'
+    require 'plugins.harpoon',
+    require 'plugins.textobjects'
 })
 

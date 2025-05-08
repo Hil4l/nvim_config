@@ -18,6 +18,9 @@ return {
             go_out_plus = 'h',
             synchronize = '<CR>',
         },
-    }
+    },
+    config = function(_, opts)
+        require("mini.files").setup(opts)
+    end
 }
 
