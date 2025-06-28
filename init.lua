@@ -19,6 +19,7 @@ require('lazy').setup({
     require 'plugins.telescope',
     require 'plugins.comment',
     require 'plugins.harpoon',
-    require 'plugins.textobjects'
+    require 'plugins.textobjects',
+    require 'plugins.toggleterm'
 })
 

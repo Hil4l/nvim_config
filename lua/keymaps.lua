@@ -7,9 +7,9 @@ vim.keymap.set('n', 'x', '"_x') -- delete without svaing to buffer
 -- completion 
 -- vim.keymap.set("i", "'", "''<left>")
 -- vim.keymap.set("i", "\"", "\"\"<left>")
-vim.keymap.set("i", "(", "()<left>")
-vim.keymap.set("i", "{", "{}<left>")
-vim.keymap.set("i", "[", "[]<left>")
+-- vim.keymap.set("i", "(", "()<left>")
+-- vim.keymap.set("i", "{", "{}<left>")
+-- vim.keymap.set("i", "[", "[]<left>")
 
 -- stay in indent mode
 vim.keymap.set('v', '<', '<gv')
