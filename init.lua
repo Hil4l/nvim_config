@@ -12,6 +12,8 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- vim.lsp.enable('clangd')
+
 require('lazy').setup({
 	require 'plugins.minifiles',
     require 'plugins.rosepine',
@@ -19,7 +21,9 @@ require('lazy').setup({
     require 'plugins.telescope',
     require 'plugins.comment',
     require 'plugins.harpoon',
-    require 'plugins.textobjects',
-    require 'plugins.toggleterm'
+    require 'plugins.toggleterm',
+    require 'plugins.lualine',
+    require 'plugins.mason',
+    require 'plugins.lspconfig',
+    require 'plugins.leap',
 })
-
